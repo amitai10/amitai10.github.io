@@ -6,6 +6,7 @@ title: false
 // Frameworks & Imports
 @charset "utf-8";
 @import "colors.scss";
+@import "_tools.scss";
 @import "normalize";
 @import "sassline-base";
 @import "syntax";
@@ -39,18 +40,61 @@ body {
     @include align-items(center);
     text-align: center;
   }
-  @include breakpoint(break-1) {
-    .container {
-      @include flex-direction(row);
-      @include justify-content(space-between);
-      text-align: inherit;
-    }
-  }
+  // @include breakpoint(break-1) {
+  //   .container {
+  //     @include flex-direction(row);
+  //     @include justify-content(space-between);
+  //     text-align: inherit;
+  //   }
+  // }
 }
 
+.header-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.nav-item {
+  color: white !important;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
 .header {
-  @include flex(0, 0, auto);
-  background: darken($color__site--background, 10%);
+  background-image: url("/assets/img/20170818_134021_Pano (640x180).jpg");
+  box-shadow: 0 0 3px #333;
+  @include transition(top, 0, 200ms);
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 3px #333;
+  top: 0;
+  transition: top 200ms;
+  will-change: top;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include mobile-only {
+    max-width: inherit; // don't exceed body width (and pass down to shadow overlay)
+    // position: fixed;
+    padding: 1.5rem 0;
+    background-size: 120.5%;
+    background-position: 0 25%;
+    z-index: 1; // pull-down nav: force rest of page below shadow overlay
+
+    &.hidden { top: -7.2rem; /* activated on scrolldown (ui.js) */ }
+  }
+
+  @include tablet-portrait-up {
+    padding: 1.5rem;
+    height: 21rem;
+    background-position: 0 10%;
+    // position: absolute;
+  }
 }
 
 .logo {
@@ -59,8 +103,16 @@ body {
   border-radius: 100%;
   overflow: hidden;
   img {
-    width: 4rem;
-    height: 4rem;
+    width: 8rem;
+    height: 8rem;
+    border: 6px solid white;
+    border-radius: 8rem;
+    @include mobile-only {
+      width: 4rem;
+      height: 4rem;
+      border: 2px solid white;
+      border-radius: 4rem;
+    }
   }
 }
 

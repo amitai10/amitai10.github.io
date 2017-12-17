@@ -36,9 +36,8 @@ timezone: Europe/London # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Welcome # Needed for Siteleaf
+    title: Blog # Needed for Siteleaf
     output: true
-    description: "This is just a demo, find out more [about Garth](/about/)" # The post list page content
 
 # 6. Jekyll collections settings
 defaults:
@@ -58,6 +57,9 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 title: "Garth" # Site name or title
-logo: "/img/download.png" # Site logo
+logo: "/assets/img/IMG_4102.jpg" # Site logo
 description: "A stupidly simple theme for Jekyll, using the official Jekyll theme implementation" # Site description and default description
 url: "https://garth.darn.es" # Site url
+
+sass:
+  
