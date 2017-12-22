@@ -21,6 +21,8 @@ exclude:
 # 2. Installed Gems
 plugins:
 - jekyll-paginate
+- jekyll-feed
+- jekyll-sitemap
 
 # 3. Gem settings
 paginate: 12 # jekyll-paginate > items per page
@@ -53,13 +55,15 @@ defaults:
       type: posts
     values:
       layout: post # Default layout
+  - scope:  { type:   about }
+    values: { layout: about  }
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-title: "Garth" # Site name or title
+title: "Amitai" # Site name or title
 logo: "/assets/img/IMG_4102.jpg" # Site logo
-description: "A stupidly simple theme for Jekyll, using the official Jekyll theme implementation" # Site description and default description
-url: "https://garth.darn.es" # Site url
+description: "My personal website" # Site description and default description
+url: "https://amitai10" # Site url
 
 sass:
   
