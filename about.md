@@ -4,18 +4,17 @@ layout: about
 type: about
 ---
 
-Hi, I'm Amitai Barnea, A software developer and tech lead at Spectory.   
-Spectory provides software consultancy and development services in a variety customers and technologies.   
-My job includes design, architecture and bootstrapping new projects and developing complicated modules. I tutor my other team mates, by helping them design their features, give a good advice when they run into difficulties and making code reviews.
-I'm a self learner, I read tech books, study online courses and tutorials. I conduct dev meetings in spectory and share my knowledge with my team mates.  
-I code in many languages and technologies: JavaScript, Ruby On Rails, C#, Java, Elixir, Angular(1 - 5), React, React Native, Redux, NodeJS, Cordova, Ionic, UWP (microsoft's UI technology) and more.   
-I can handle any technology in any domain, from web to IOT, from drivers to UI.
+Hi, I’m Amitai Barnea, A software developer and tech lead at Spectory. <br>
+Spectory provides software consultancy and development services to a variety customers and technologies. <br>
+My job includes design, architecture and bootstrapping new projects ([list of projects](#partial-list-of-the-projects-and-applications-that-i-was-involved-in)) and developing complicated modules. I tutor my other teammates, by helping them design their features, give a good advice when they run into difficulties and making code reviews. <br>
+I’m a self-learner, I read tech books, study online courses, and tutorials. I conduct dev meetings in Spectory and share my knowledge with my teammates.<br>
+I code in many languages and technologies: JavaScript, Ruby On Rails, C#, Java, Elixir, Angular(1 - 5), React, React Native, Redux, NodeJS, Cordova, Ionic, UWP (Microsoft's UI technology) and more. <br>
+I can handle any technology in any domain, from the web to IOT, from drivers to UI. <br>
+I’m enthusiastic about software and technologies, mainly open source and web. I stay tuned for new technologies by reading blogs, newsletters, and podcasts.<br>
+I write about things that are interesting to me, give my perspective and experience of things that I’m working on.  <br><br>
+I'm a father of three lovely druthers.  
+In my free time, I like to run, yoga and play piano and guitar. <br>
 
-I'm enthusiastic about software and technologies, mainly open source and web. I stay tuned about new technologies by reading blogs, newsletters and podcasts. 
-
-In my free time I like to run, yoga and play piano and guitar.
-
-I write about things that are interesting for me, give my perspective and experience of things that I'm working on.   
 
 ## Partial list of the projects and applications that I was involved in:
 ##### Collaboration web application for students

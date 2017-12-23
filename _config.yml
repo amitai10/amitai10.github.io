@@ -61,7 +61,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 title: "Amitai" # Site name or title
-logo: "/assets/img/IMG_4102.jpg" # Site logo
+logo: "/assets/img/IMG_4103.JPG" # Site logo
 description: "My personal website" # Site description and default description
 url: "https://amitai10" # Site url
 

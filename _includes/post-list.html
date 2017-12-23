@@ -4,10 +4,10 @@
 		{% for page in paginator.posts %}
 			<li class="item  item--post">
 				<article class="article  article--post  typeset">
-
-					<h2><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2>
-					<div>{{ page.teaser }}</div>
 					{% include post-meta.html %}
+
+					<h2 class="blog-title"><a class="blog-link" href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2>
+					<div>{{ page.teaser }}</div>
 
 				</article>
 			</li>
