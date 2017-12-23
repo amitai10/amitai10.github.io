@@ -12,7 +12,7 @@ I code in many languages and technologies: JavaScript, Ruby On Rails, C#, Java, 
 I can handle any technology in any domain, from the web to IOT, from drivers to UI. <br>
 I’m enthusiastic about software and technologies, mainly open source and web. I stay tuned for new technologies by reading blogs, newsletters, and podcasts.<br>
 I write about things that are interesting to me, give my perspective and experience of things that I’m working on.  <br><br>
-I'm a father of three lovely druthers.  
+I'm a father of three lovely daughters.  
 In my free time, I like to run, yoga and play piano and guitar. <br>
 
 
