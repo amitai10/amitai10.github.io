@@ -1,5 +1,5 @@
 ---
-title: A deep dive deep into TypeScript decorators
+title: A deep dive into TypeScript decorators
 teaser: What are TypeScript decorators and how to use them
 category: [JavaScript]
 tags: [JavaScript]
