@@ -23,6 +23,7 @@ plugins:
 - jekyll-paginate
 - jekyll-feed
 - jekyll-sitemap
+- jekyll-seo-tag
 
 # 3. Gem settings
 paginate: 12 # jekyll-paginate > items per page
@@ -60,9 +61,9 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-title: "Amitai" # Site name or title
+title: "Amitai Barnea" # Site name or title
 logo: "/assets/img/IMG_4103.JPG" # Site logo
-description: "My personal website" # Site description and default description
+description: "My blog about software and about me" # Site description and default description
 url: "https://amitai10.github.io" # Site url
 
 sass:
