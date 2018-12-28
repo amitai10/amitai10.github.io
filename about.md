@@ -56,7 +56,7 @@ In my free time, I like to run, yoga and play piano and guitar. <br>
 ##### End user application for Transportation
 - Domain: Transportation  
 - Customer: An Israeli startup    
-- Technologies: React native, API to Meteor.  
+- Technologies: React native, Elixir, phoenix, ES-CQRS.
 
 
 ##### Web application for managing Invoices and Bills
@@ -77,7 +77,7 @@ In my free time, I like to run, yoga and play piano and guitar. <br>
 - Technologies: C++, UWP  
 
 
-##### Report tool tool for hardware
+##### Report tool for hardware
 - Domain: Hardware  Testing
 - Customer: A very large American company. 
 - Technologies: C#, Angular, Electron.
@@ -93,6 +93,11 @@ In my free time, I like to run, yoga and play piano and guitar. <br>
 - Domain: Security  
 - Customer: An Israeli startup    
 - Technologies: Rails, Angular, Postgres.  
+
+##### Yet another Medical application for therapists:
+- Domain: Medical  
+- Customer: An Israeli startup    
+- Technologies: C, Node, Angular, Websockets.  
 
 
 
