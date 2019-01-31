@@ -64,7 +64,7 @@ encoding: utf-8 # Make sure the encoding is right
 title: "Amitai Barnea" # Site name or title
 logo: "/assets/img/IMG_4103.JPG" # Site logo
 description: "My blog about software and about me" # Site description and default description
-url: "https://amitai10.github.io" # Site url
+url: "https://amitaibarnea.com" # Site url
 
 sass:
 

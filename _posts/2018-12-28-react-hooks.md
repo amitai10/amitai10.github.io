@@ -1,4 +1,9 @@
-# An introduction to react hooks
+---
+title: An introduction to react hooks
+teaser: Introducing the new react's hooks API that will change the way we are using react in the future
+category: [Frontend]
+tags: [React]
+---
 
 React hooks is a new feature introduced in version 16.7.0-alpha.  
 It is not a revolution because they are not breaking changes, and react will still be compatible with older code, but it will change the way we are using react in the future when it becomes mature.
